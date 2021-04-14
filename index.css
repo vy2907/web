@@ -45,8 +45,7 @@ li a:hover {
 
 .main .image_introdution{
     width: 500px;
-    height: auto;
-    float: left;  
+    height: auto;  
 }
 
 .main .image_menufood{
@@ -88,15 +87,3 @@ button{
 }
 
 
-sticknav{
-    background: #ffffff;
-    height: 30px;
-    width: 100%;
-    margin-right: 0px;
-    margin-left: 0px;
-    left: 0px;
-    right: 0px;
-    position: relative;
-    z-index: 9999;
-}
-.fixed { position:fixed;}
