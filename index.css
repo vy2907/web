@@ -8,18 +8,15 @@
     padding: 0px;
     
 }
-.menu_top .right{
+.menu_top .menu{
     margin: 0px;
     padding: 0px;
     display: flex;
     justify-content: flex-end;
     
 }
-
-
 .menu_top ul li{
     list-style: none;
-    float: left;
 }
 
 .menu_top ul li a {
@@ -39,7 +36,7 @@ li a:hover {
 .banner{
     height: auto;
     width: 100%;
-    margin: 0px 20px;
+    margin: 20px;
 }
 
 
@@ -53,14 +50,21 @@ li a:hover {
     height: auto;
 }
 
-
-
-.main{
+section{
     width: 1000px;
     margin: 80px auto;
 }
 
+.introdution{
+    display: flex;
+}
 
+.introdution div{
+    padding: 0px 50px;
+}
+.menu_food{
+    display: flex;
+}
 
 .footer{
     height: 100px;
