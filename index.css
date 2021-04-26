@@ -11,35 +11,29 @@ header .menu_top{
     justify-content: space-between; 
 }
 
-
 header .menu_top .logo{
     text-decoration: none;
     color: #000;
     line-height: 40px;
     margin-left: 10px;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 20px;
 }
 header .menu_top .logo:hover {
     background-color: lightgray;
 }
 
-.menu_top ul{
-    margin: 0px;
-    padding: 0px;   
-}
-
 .menu_top .menu{
     margin: 0px;
-    padding: 0px;
+    padding-right: 30px;
     display: flex;
     justify-content: flex-end;
 }
 
-.menu_top ul li{
+.menu_top .menu li{
     list-style: none;
 }
 
-.menu_top ul li a {
+.menu_top .menu li a {
     text-decoration: none;
     display: block;
     height: 40px;
@@ -48,12 +42,11 @@ header .menu_top .logo:hover {
     color: #000;
 }
 
-li a:hover {
+.menu_top .menu li a:hover {
     background-color: lightgray;
 }
 
-
-.img_banner{
+.main .banner .img_banner{
     height: auto;
     width: 100%;
     margin: 20px;
@@ -64,15 +57,17 @@ li a:hover {
     left: 60px;
     top: 750px;
     font-size: 40px;
-
 }
 
 .main section img{
     width: 500px;
-    height: auto; 
+    height: auto;
+    border-radius: 4px;
+    max-width: 500px;
+
 }
 
-section{
+.main section{
     width: 1100px;
     margin: 80px auto;
 }
@@ -81,30 +76,33 @@ section{
     display: flex;
 }
 
-.main .introdution div{
+.main .introdution .aboutcatering{
     margin: 0px 50px;
-    padding: 20px;
 }
 
 .main .menu_food{
     display: flex;
 }
 
-.main .menu_food div{
-    margin: 0px 100px 0px 0px;
+.main .menu_food .detail_menufood{
+    margin: 0px 110px 0px 0px;
 }
 
-.main .introdution h1{
+.main .introdution .aboutcatering h1{
     font-size: 30px;
     text-align: center;
 }
 
-.main .introdution h4{
+.main .introdution .aboutcatering h4{
     font-size: 20px;
     text-align: center;
 }
 
-.main .menu_food ul li{
+.main .menu_food .detailfood{
+    margin: 0px;
+    padding: 0px;
+}
+.main .menu_food .detailfood li{
     list-style: none;
     padding: 5px 0px;
 }
@@ -126,10 +124,23 @@ input{
     padding: 10px;
 }
 
-button{
+.btsendmessage{
     border-style: none;
     margin: 7px;
     padding: 10px 15px;
 }
 
+.main .introdution .seasonal{
+    background-color: lightgray;
+    padding: 0px 8px;
+}
 
+.main .menu_food .ourmenu{
+    font-size: 30px; 
+    text-align: center;
+}
+
+.main hr{
+    width: 1100px;
+    margin: 80px auto;
+}
