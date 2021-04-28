@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 header{
     position:fixed;
     width: 100%;
@@ -49,7 +54,6 @@ header .menu_top .logo:hover {
 .main .banner .img_banner{
     height: auto;
     width: 100%;
-    margin: 20px;
 }
 
 .main .banner p{
@@ -63,39 +67,70 @@ header .menu_top .logo:hover {
     width: 500px;
     height: auto;
     border-radius: 4px;
-    max-width: 500px;
-
 }
 
-.main section{
+.main .all-section{
     width: 1100px;
-    margin: 80px auto;
+    margin: 0 300px;
 }
 
 .main .introdution{
     display: flex;
+    padding: 70px 0;
 }
 
 .main .introdution .aboutcatering{
-    margin: 0px 50px;
+    margin-left: 50px;
 }
 
+.main .introdution .aboutcatering .title{
+    margin: 20px 0;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+}
+
+.main .introdution .aboutcatering .tradition{
+    margin: 10px 0;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+.main .introdution .aboutcatering .founded{
+    margin: 18px 0;
+    font-family: "Times New Roman";
+    font-size: 18px;
+}
+
+.main .introdution .aboutcatering .founded .seasonal{
+    background-color: #f1f1f1;
+    padding: 0px 8px;
+    text-align: center;
+}
+
+.main .introdution .aboutcatering .excepteur{
+    margin: 18px 0;
+    font-family: "Times New Roman";
+    font-size: 18px;
+    color: #757575;
+}
+
+.main .line{
+    border: 0;
+    border-top: 1px solid #eee;
+}
 .main .menu_food{
     display: flex;
+    padding: 70px 0;
 }
 
 .main .menu_food .detail_menufood{
-    margin: 0px 110px 0px 0px;
-}
-
-.main .introdution .aboutcatering h1{
-    font-size: 30px;
-    text-align: center;
-}
-
-.main .introdution .aboutcatering h4{
-    font-size: 20px;
-    text-align: center;
+    margin-right: 130px;
 }
 
 .main .menu_food .detailfood{
@@ -104,8 +139,73 @@ header .menu_top .logo:hover {
 }
 .main .menu_food .detailfood li{
     list-style: none;
-    padding: 5px 0px;
+    margin: 55px 0;
 }
+
+.main .menu_food .ourmenu{
+    text-align: center;
+    margin: 30px 0;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.main .menu_food .detailfood h2{
+    margin: 20px 0;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.main .menu_food .detailfood p{
+    margin: 15px 0;
+    font-family: "Times New Roman";
+    font-size: 15px;
+    color: #757575;
+}
+
+.main .contact{
+    padding: 70px 0;
+}
+
+.main .contact .title-contact{
+    margin: 30px 0;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.main .contact .detail-contact{
+    margin: 20px 0;
+    font-family: "Times New Roman";
+}
+
+.main .contact .address-contact{
+    margin: 20px 0;
+    font-family: "Times New Roman";
+    color: #607d8b;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.input-contact{
+    width: 100%;
+    height: 50px;
+    border-style: none;
+    border-bottom: 1px solid gray;
+    margin: 15px 0;
+    padding: 0 10px;
+}
+
+
+.btsendmessage{
+    border-style: none;
+    margin: 7px;
+    padding: 10px 15px;
+}
+
 .footer{
     height: 100px;
     background: rgb(211, 207, 207);
@@ -115,32 +215,3 @@ header .menu_top .logo:hover {
     align-items: center;
 }
 
-input{
-    width: 100%;
-    height: 50px;
-    margin: 7px;
-    border-style: none;
-    border-bottom: 1px solid gray;
-    padding: 10px;
-}
-
-.btsendmessage{
-    border-style: none;
-    margin: 7px;
-    padding: 10px 15px;
-}
-
-.main .introdution .seasonal{
-    background-color: lightgray;
-    padding: 0px 8px;
-}
-
-.main .menu_food .ourmenu{
-    font-size: 30px; 
-    text-align: center;
-}
-
-.main hr{
-    width: 1100px;
-    margin: 80px auto;
-}
